@@ -184,7 +184,7 @@ const Index = () => {
                     </>) : (<>
                         <Link
                             className="w-full bg-primary p-8 text-xl text-background hover:bg-accent-200"
-                            to="/signup"
+                            to="/signup/seeker/"
                         >Sign Up</Link>
                         <Link
                             className="w-full bg-primary p-8 text-xl text-background hover:bg-accent-200"
