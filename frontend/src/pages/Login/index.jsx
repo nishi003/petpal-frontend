@@ -12,7 +12,7 @@ const Login = () => {
     function handle_submit(event) {
         let data = new FormData(event.target);
 
-        ajax("/api/token/", {
+        ajax("https://petpal-canada.fly.dev/api/token/", {
             method: "POST",
             body: data,
         })
